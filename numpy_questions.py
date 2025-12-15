@@ -74,5 +74,5 @@ def wallis_product(n_terms):
     pi = 1.0
     for n in range(1, n_terms+1):
         pi *= (4 * n * n) / (4 * n * n - 1)
-    pi *= 2 
+    pi *= 2
     return pi
